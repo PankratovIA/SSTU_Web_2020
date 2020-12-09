@@ -1,3 +1,8 @@
+@@font-face {
+  /* https://www.fonts-online.ru/font/Ustroke-Regular */
+  font-family: UstrokeRegular;
+  src: url(fonts/UstrokeRegular.ttf);
+}
 /*Заголовки*/
 h3 {
   /* Цвет -- строка */
@@ -45,4 +50,9 @@ a {
 
 .italic{
   font-style: italic;
+}
+
+.downloadedFont {
+  font-family: UstrokeRegular;
+  font-size: 48px;
 }
