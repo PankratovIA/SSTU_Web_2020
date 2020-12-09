@@ -56,3 +56,8 @@ a {
   font-family: UstrokeRegular;
   font-size: 48px;
 }
+
+.fontGoogle{
+  font-family: 'Pacifico', cursive;
+  font-size: 200%;
+}
