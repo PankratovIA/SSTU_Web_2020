@@ -1,4 +1,4 @@
-@@font-face {
+@font-face {
   /* https://www.fonts-online.ru/font/Ustroke-Regular */
   font-family: UstrokeRegular;
   src: url(fonts/UstrokeRegular.ttf);
@@ -54,5 +54,8 @@ a {
 
 .downloadedFont {
   font-family: UstrokeRegular;
+  font-size: 48px;
+}
+.font48 {
   font-size: 48px;
 }
