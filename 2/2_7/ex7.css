@@ -1,9 +1,17 @@
+body{
+  /* background: blue; */
+  /*background: linear-gradient(to bottom right, orange, yellow);*/
+  background: url(img/fon_25.jpg);
+  /*background-size: contain;*/ /*not good*/
+  /*background-size: cover;*/ /*not good*/
+}
 .block_example{
-  background: red;
+  background: rgba(255, 0, 0, 0.5);
   width: 70%;
   text-align: justify;
   padding: 30px;
   border: 30px solid green;
   border-radius: 20px;
   margin: auto;
+  margin-bottom: 20px;
 }
