@@ -1,0 +1,9 @@
+.block_cats{
+  background: red;
+  width: 70%;
+  text-align: justify;
+  padding: 30px;
+  border: 30px solid green;
+  border-radius: 20px;
+  margin: auto;
+}
