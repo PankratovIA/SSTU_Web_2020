@@ -34,6 +34,7 @@ body{
    flex-direction: row-reverse;
  }
 
+ /* Новости*/
  .newsHorizontal{
    display:flex;
    justify-content: space-between;
@@ -45,10 +46,10 @@ body{
    color: yellow;
 
  }
- .oneText{
+ .oneText{  /* Одна новость*/
    margin: 30px;
    padding: 10px;
-   background: white; /* LimeGreen */
+   background: white;
    border-top-left-radius: 20px;
    /*display: block;   /*not good*/
    display: inline-block;
