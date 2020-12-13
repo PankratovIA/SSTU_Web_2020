@@ -6,14 +6,22 @@ body{
   /*background-size: cover;*/ /*not good*/
 }
 .block_example{
-  background: rgba(255, 128, 114, 0.75);
+  background: rgba(255, 128, 114, 0.75); /* Salmon */
   width: 70%;
   text-align: justify;
   padding: 30px;
-  border: 30px solid green;
+  border: 30px double blue;
   border-radius: 20px;
   margin: auto;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 
- /* TODO:  change url view*/
+ .button{
+   margin: 30px;
+   padding: 10px;
+   background: rgba(50, 205, 50, 0.75); /* LimeGreen */
+   border-top-left-radius: 20px;
+   /*display: block;   /*not good*/
+   display: inline;
+ }
