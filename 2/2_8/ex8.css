@@ -17,6 +17,7 @@ body{
   margin-bottom: 20px;
 }
 
+/*Каждая из кнопок*/
  .button{
    margin: 30px;
    padding: 10px;
@@ -26,8 +27,29 @@ body{
    display: inline;
  }
 
+ /* Несколько кнопок вместе*/
  .menu{
    display: flex;
    justify-content: space-around;
    flex-direction: row-reverse;
+ }
+
+ .newsHorizontal{
+   display:flex;
+   justify-content: space-between;
+   /*margin: 10px;*/
+ }
+ .newsTitle{
+   text-align: center;
+   font-size: 36px;
+   color: yellow;
+
+ }
+ .oneText{
+   margin: 30px;
+   padding: 10px;
+   background: white; /* LimeGreen */
+   border-top-left-radius: 20px;
+   /*display: block;   /*not good*/
+   display: inline-block;
  }
