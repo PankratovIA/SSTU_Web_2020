@@ -27,7 +27,11 @@ body{
    display: inline;
  }
 
- /* Несколько кнопок вместе*/
+ /*
+  Несколько кнопок вместе
+  Ссылка на flex:
+  https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
+ */
  .menu{
    display: flex;
    justify-content: space-around;
