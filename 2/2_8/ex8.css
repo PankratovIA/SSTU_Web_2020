@@ -25,3 +25,9 @@ body{
    /*display: block;   /*not good*/
    display: inline;
  }
+
+ .menu{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row-reverse;
+ }
