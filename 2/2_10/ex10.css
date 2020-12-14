@@ -63,3 +63,10 @@ body{
    font-style: italic;
    color: magenta;
  }
+
+/*Фиксированное положение кнопки Наверх в правом нижнем углу*/
+ .buttonTop{
+   position: fixed;
+   right: 2%;
+   bottom: 2%;
+ }
