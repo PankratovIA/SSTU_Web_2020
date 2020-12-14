@@ -29,6 +29,12 @@ body{
    display: inline;
  }
 
+ .button:hover{
+   background: rgba(255, 222, 173, 0.5); /* NavajoWhite */
+   border-top-left-radius: 0px;
+   border-bottom-right-radius: 20px;  
+ }
+
  /*
   Несколько кнопок вместе
   Ссылка на flex:
