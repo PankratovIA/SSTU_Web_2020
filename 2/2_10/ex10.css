@@ -86,3 +86,16 @@ body{
    right: 2%;
    bottom: 2%;
  }
+
+ .pictureCat{
+   background: url(img/cat.jpg);
+   background-size: cover;
+   width: 285px;
+   height: 360px;
+   transition: 0.5s;
+  }
+
+  .pictureCat:hover{
+    width: 142px;
+    height: 180px;
+  }
