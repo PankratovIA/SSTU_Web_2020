@@ -1,4 +1,6 @@
 body{
+  margin: 0;
+  padding: 0;
   /* background: blue; */
   /*background: linear-gradient(to bottom right, orange, yellow);*/
   background: url(img/fon_25.jpg);
