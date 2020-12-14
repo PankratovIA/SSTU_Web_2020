@@ -28,5 +28,11 @@ z-index: 0;
   position: relative;
   left: 200px;
   top: 150px;
+}
 
+.sun{
+  width: 200px;
+  position: relative;
+  left: 50%;
+  bottom: 20%;
 }
