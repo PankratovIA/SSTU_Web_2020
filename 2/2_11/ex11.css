@@ -154,6 +154,7 @@ body{
   height: 225px;
   position: fixed;
   text-align: center;
+  font-weight: bold;
   left: 4%;
   bottom: 10%;
   opacity: 0.7;
