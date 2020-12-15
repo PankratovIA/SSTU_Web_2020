@@ -8,18 +8,18 @@ body{
 .rectangle{
   background: red;
   background-size: cover;
-  width: 200px;
-  height: 100px;
+  width: 100px;
+  height: 50px;
   position: fixed;
-  left: 20px;
-  top: 20px;
-  animation: squarePath 5s linear infinite;
+  left: 50px;
+  top: 50px;
+  animation: squarePath 10s linear infinite;
 }
 
 @keyframes squarePath {
-  0%  {}
-  25% { transform: translate(500px, 0px);}
-  50% { transform: translate(500px, 500px);}
-  75% { transform: translate(0px, 500px);}
-  100% { transform: translate(0px, 0px);}}
+  0%  {opacity: 0.5; background: red}
+  25% {opacity: 0.75; transform: translate(500px, 0px) rotate(90deg); background: yellow}
+  50% { opacity: 1; transform: translate(500px, 500px) rotate(180deg); background: blue}
+  75% {opacity: 0.75; transform: translate(0px, 500px) rotate(270deg);background: yellow}
+  100% {opacity: 0.5; transform: translate(0px, 0px) rotate(360deg); background: red }
 }
