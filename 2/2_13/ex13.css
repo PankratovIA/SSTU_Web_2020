@@ -13,5 +13,13 @@ body{
   position: fixed;
   left: 20px;
   top: 20px;
-  transition: 3s;
+  animation: squarePath 5s linear infinite;
+}
+
+@keyframes squarePath {
+  0%  {}
+  25% { transform: translate(500px, 0px);}
+  50% { transform: translate(500px, 500px);}
+  75% { transform: translate(0px, 500px);}
+  100% { transform: translate(0px, 0px);}}
 }
