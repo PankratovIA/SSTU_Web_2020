@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+
+.sticker{
+  background: url(img/sticky_notes_cutted.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 395px;
+  position: fixed;
+  left: 300px;
+  top: 200px;
+  transform-origin: 50% 0%;
+  transform: rotate(-45deg);
+  -o-transform: rotate(-45deg); /*Opera*/
+  -ms-transform: rotate(-45deg); /*IE*/
+  transition: 3s;
+}
+
+.sticker:hover{
+  transform: rotate(90deg);
+}
