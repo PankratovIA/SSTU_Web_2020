@@ -5,21 +5,13 @@ body{
 }
 
 
-.sticker{
-  background: url(img/sticky_notes_cutted.jpg);
+.rectangle{
+  background: red;
   background-size: cover;
-  width: 400px;
-  height: 395px;
+  width: 200px;
+  height: 100px;
   position: fixed;
-  left: 300px;
-  top: 200px;
-  transform-origin: 50% 0%;
-  transform: rotate(-45deg);
-  -o-transform: rotate(-45deg); /*Opera*/
-  -ms-transform: rotate(-45deg); /*IE*/
+  left: 20px;
+  top: 20px;
   transition: 3s;
-}
-
-.sticker:hover{
-  transform: rotate(90deg);
 }
