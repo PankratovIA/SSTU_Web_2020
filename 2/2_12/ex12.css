@@ -15,6 +15,7 @@ body{
   top: 200px;
   transform-origin: 50% 0%;
   transform: rotate(-45deg);
+  -o-transform: rotate(-45deg); /*Opera*/
   transition: 3s;
 }
 
