@@ -146,3 +146,13 @@ body{
   left: 2%;
   bottom: 2%;
 }
+
+.getContacts{
+  background: white;
+  width: 100px;
+  position: fixed;
+  text-align: center;
+  left: 4%;
+  bottom: 10%;
+  opacity: 0.7;
+}
