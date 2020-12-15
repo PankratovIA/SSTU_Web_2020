@@ -122,5 +122,9 @@ body{
      background-size: cover;
      width: 393px;
      height: 550px;
-     transition: 0.5s;
+     transition: 1.5s;
+    }
+
+    .pictureBird:hover{
+      background-position: -393px 0px;
     }
