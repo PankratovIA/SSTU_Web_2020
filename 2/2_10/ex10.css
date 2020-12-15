@@ -87,6 +87,7 @@ body{
    bottom: 2%;
  }
 
+/* hover */
  .pictureCat{
    background: url(img/cat.jpg);
    background-size: cover;
@@ -99,3 +100,18 @@ body{
     width: 142px;
     height: 180px;
   }
+
+/* Смена собаки на кошку*/
+  .pictureDog{
+    background: url(img/dog.jpg);
+    background-size: cover;
+    width: 441px;
+    height: 300px;
+    transition: 0.5s;
+   }
+
+   .pictureDog:hover{
+     background: url(img/cat.jpg);
+     width: 285px;
+     height: 360px;
+   }
