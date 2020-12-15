@@ -115,3 +115,12 @@ body{
      width: 285px;
      height: 360px;
    }
+
+   /* Сдвиг налево/направо */
+   .pictureBird{
+     background: url(img/FC_Sokol_Saratov_Logo_merged.png);
+     background-size: cover;
+     width: 393px;
+     height: 550px;
+     transition: 0.5s;
+    }
