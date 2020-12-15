@@ -56,12 +56,18 @@ body{
    justify-content: space-between;
    /*margin: 10px;*/
  }
+
  .newsTitle{
    text-align: center;
    font-size: 36px;
    color: yellow;
-
  }
+ .newsTitle:hover{
+   text-align: right;
+   font-weight: bold;
+   font-family: fantasy;
+ }
+
  .oneText{  /* Одна новость*/
    margin: 30px;
    padding: 10px;
