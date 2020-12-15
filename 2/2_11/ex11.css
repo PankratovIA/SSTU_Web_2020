@@ -148,8 +148,10 @@ body{
 }
 
 .getContacts{
-  background: white;
-  width: 100px;
+  background: url(img/matros_25.jpg);
+  background-size: cover;
+  width: 128px;
+  height: 225px;
   position: fixed;
   text-align: center;
   left: 4%;
