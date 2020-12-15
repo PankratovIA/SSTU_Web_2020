@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:  url(../img/cloud.png) no-repeat fixed,
+               url(../img/cloud.png) no-repeat fixed,
+               url(../img/city.png) repeat-x fixed;
+  background-size: auto, auto, cover;
+  animation: cloudCity 30s linear infinite;
+}
+
+@keyframes cloudCity {
+  from: {
+    background-position: 120% 90%, -20% 30%, 0 0;
+  }
+  to{
+    background-position: -20% 10%, 140% 30%, 0 0;
+  }
+
+}
+/*
+.rectangle{
+  background: red;
+  background-size: cover;
+  width: 100px;
+  height: 50px;
+  position: fixed;
+  left: 50px;
+  top: 50px;
+  animation: squarePath 10s linear infinite;
+}
+
+@keyframes squarePath {
+  0%  {opacity: 0.5; background: red}
+  25% {opacity: 0.75; transform: translate(500px, 0px) rotate(90deg); background: yellow}
+  50% { opacity: 1; transform: translate(500px, 500px) rotate(180deg); background: blue}
+  75% {opacity: 0.75; transform: translate(0px, 500px) rotate(270deg);background: yellow}
+  100% {opacity: 0.5; transform: translate(0px, 0px) rotate(360deg); background: red }
+}
+*/
