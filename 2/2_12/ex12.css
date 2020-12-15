@@ -1,166 +1,23 @@
 body{
   margin: 0;
   padding: 0;
-  /* background: blue; */
-  /*background: linear-gradient(to bottom right, orange, yellow);*/
-  background: url(img/fon_25.jpg);
-  /*background-size: contain;*/ /*not good*/
-  /*background-size: cover;*/ /*not good*/
-}
-.block_example{
-  background: rgba(255, 128, 114, 0.75); /* Salmon */
-  width: 70%;
-  text-align: justify;
-  padding: 30px;
-  border: 30px double blue;
-  border-radius: 20px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  background: white;
 }
 
-.block_example:hover{
-  border: 30px dotted green;
-}
 
-/*Каждая из кнопок*/
- .button{
-   margin: 30px;
-   padding: 10px;
-   background: rgba(50, 205, 50, 0.75); /* LimeGreen */
-   border-top-left-radius: 20px;
-   /*display: block;   /*not good*/
-   display: inline;
- }
-
- .button:hover{
-   background: rgba(255, 222, 173, 0.5); /* NavajoWhite */
-   border-top-left-radius: 0px;
-   border-bottom-right-radius: 20px;
- }
-
- /*
-  Несколько кнопок вместе
-  Ссылка на flex:
-  https://demos.scotch.io/visual-guide-to-css3-flexbox-flexbox-playground/demos/
- */
- .menu{
-   display: flex;
-   justify-content: space-around;
-   flex-direction: row-reverse;
- }
-
- /* Новости*/
- .newsHorizontal{
-   display:flex;
-   justify-content: space-between;
-   /*margin: 10px;*/
- }
-
- .newsTitle{
-   text-align: center;
-   font-size: 36px;
-   color: yellow;
- }
- .newsTitle:hover{
-   text-align: right;
-   font-weight: bold;
-   font-family: fantasy;
- }
-
- .oneText{  /* Одна новость*/
-   margin: 30px;
-   padding: 10px;
-   background: white;
-   border-top-left-radius: 20px;
-   /*display: block;   /*not good*/
-   display: inline-block;
-   text-align: justify;
-   font-style: italic;
-   color: magenta;
- }
-
- .oneText:hover{
-   background: #D8BFD8; /*Thistle*/
-   font-style: normal;
-   color:	#8B4513; /*SaddleBrown*/
- }
-
-/*Фиксированное положение кнопки Наверх в правом нижнем углу*/
- .buttonTop{
-   position: fixed;
-   right: 2%;
-   bottom: 2%;
- }
-
-/* hover */
- .pictureCat{
-   background: url(img/cat.jpg);
-   background-size: cover;
-   width: 285px;
-   height: 360px;
-   transition: 0.5s;
-  }
-
-  .pictureCat:hover{
-    width: 142px;
-    height: 180px;
-  }
-
-/* Смена собаки на кошку*/
-  .pictureDog{
-    background: url(img/dog.jpg);
-    background-size: cover;
-    width: 441px;
-    height: 300px;
-    transition: 0.5s;
-   }
-
-   .pictureDog:hover{
-     background: url(img/cat.jpg);
-     width: 285px;
-     height: 360px;
-   }
-
-   /* Сдвиг налево/направо */
-   .pictureBird{
-     background: url(img/FC_Sokol_Saratov_Logo_merged.jpg);
-     background-size: cover;
-     width: 393px;
-     height: 550px;
-     transition: 1.5s;
-    }
-
-    .pictureBird:hover{
-      background-position: -393px 0px;
-    }
-
-/*Questions*/
-.buttonQuestion{
-  margin: 10px;
-  padding: 10px;
-  background: rgba(75, 0, 130, 0.75); /* Indigo */
-  color: white;
-  border-radius: 20px;
-  position: fixed;
-  left: 2%;
-  bottom: 2%;
-}
-
-.getContacts{
-  background: url(img/matros_25.jpg);
+.sticker{
+  background: url(img/sticky_notes_cutted.jpg);
   background-size: cover;
-  width: 128px;
-  height: 225px;
+  width: 400px;
+  height: 395px;
   position: fixed;
-  text-align: center;
-  font-weight: bold;
-  left: 4%;
-  bottom: 10%;
-  opacity: 0.7;
-  visibility: hidden;
+  left: 300px;
+  top: 200px;
+  transform-origin: 50% 0%;
+  transform: rotate(-45deg);
+  transition: 3s;
 }
 
-.buttonQuestion:hover + div{
-  visibility: visible;
+.sticker:hover{
+  transform: rotate(90deg);
 }
