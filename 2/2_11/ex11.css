@@ -134,3 +134,15 @@ body{
     .pictureBird:hover{
       background-position: -393px 0px;
     }
+
+/*Questions*/
+.buttonQuestion{
+  margin: 10px;
+  padding: 10px;
+  background: rgba(75, 0, 130, 0.75); /* Indigo */
+  color: white;
+  border-radius: 20px;
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+}
