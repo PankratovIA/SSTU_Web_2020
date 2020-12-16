@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Таблица JS</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let min = -250, max = -90, step = 10;
+      alert("start");
+      document.write("<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" width=\"200px\">");
+      //document.write("<tr>");
+      //document.write(`<td>${min}</td><td>${max}</td><td>${step}</td>`)
+      //document.write("</tr>");
+      for (f = min; f <= max; f+= step){
+        document.write("<tr>");
+        let c = Math.round(5 * (f - 32) / 9);
+        document.write(`<td>${f}</td><td>${c}</td>`)
+        document.write("</tr>");
+      }
+      document.write("</table>");
+      alert("finish");
+    </script>
+  </body>
+</html>
