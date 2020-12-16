@@ -6,18 +6,15 @@
   </head>
   <body>
     <script type="text/javascript">
-      //let min = -250, max = -90, step = 10;
       //Запрос параметров (с переводом в число!)
       let min = Number(prompt("Начало диапазона", -250));
-      //console.log(min, typeof min);
       let max = Number(prompt("Начало диапазона", -90));
       let step = Number(prompt("Шаг", 10));
       //Шапка таблицы
       document.write("<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" width=\"200px\">");
       document.write("<tr><td>&degF</td><td>&degC</td></tr>");
       color = "red";
-      for (f = min; f <= max; f+= step){ // цикл по градусам Фаренгейта
-        //console.log(color);
+      for (f = min; f <= max; f += step){ // цикл по градусам Фаренгейта
         //Покрашенная строка таблицы
         document.write(`<tr bgcolor=${color}>`);
         let c = Math.round(5 * (f - 32) / 9); // градусы Цельсия
