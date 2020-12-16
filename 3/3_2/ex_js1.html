@@ -9,14 +9,16 @@
       let min = -250, max = -90, step = 10;
       alert("start");
       document.write("<table border=\"1\" cellspacing=\"0\" cellpadding=\"10\" width=\"200px\">");
-      //document.write("<tr>");
-      //document.write(`<td>${min}</td><td>${max}</td><td>${step}</td>`)
-      //document.write("</tr>");
+      document.write("<tr><td>F</td><td>C</td></tr>");
+      color = "red";
       for (f = min; f <= max; f+= step){
-        document.write("<tr>");
+        console.log(color);
+        document.write(`<tr bgcolor=${color}>`);
         let c = Math.round(5 * (f - 32) / 9);
         document.write(`<td>${f}</td><td>${c}</td>`)
         document.write("</tr>");
+        if (color == "red") color="yellow";
+        else color = "red";
       }
       document.write("</table>");
       alert("finish");
